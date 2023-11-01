@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "myjars/commons-lang3-3.10.jar",
+        "myjars/commons-text-1.8.jar",
+        "myjars/hamcrest-core-1.3.jar",
+        "myjars/json-simple-1.1.1.jar",
+        "myjars/junit-4.12.jar"
+    ]
+}
