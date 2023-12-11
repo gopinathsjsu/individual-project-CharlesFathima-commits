@@ -27,6 +27,19 @@ Factory Pattern:
 This pattern aids in handling multiple records in each file type by processing each record individually.
 Due to the variety of card types, the cardFactory interface is implemented to generate a new object for each card type.
 
+Consequeces for these patterns:
+Iterator Pattern:
+  Pros: Enhances the level of abstraction when managing collections.
+  Cons: May be overly complex for smaller applications.
+Strategy Pattern:
+  Pros: Facilitates the addition of numerous strategies within the design.
+  Cons: Requires users to be familiar with various strategies and their distinctions.
+Factory Pattern:
+  Pros: Enhances the modularity and testability of the application.
+  Cons: Necessitates a significant number of classes and can make extending the application quite intricate.
+
+
+
 
 ## Steps to run:
 
