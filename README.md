@@ -14,6 +14,20 @@ Design Patterns Used:
 2. Strategy Pattern
 3. Factory Pattern
 
+Why Iterator Pattern:
+This pattern is utilized for sequentially accessing elements within a collection object.
+It is particularly useful in this context because each file type comprises multiple records, and the pattern facilitates processing each record individually.
+
+Why Strategy Pattern:
+Strategy design patterns allow for dynamic behavioral changes in the application based on the selected strategy.
+Given the diversity of file types, specific objects for each file type are created, with the methods employed being contingent on the type of the input file.
+The strategy design pattern was employed to accommodate different file formats, leading to the creation of three interfaces: CsvFileparser, Json File Parser, and Xmlfileparser. The behavior of the file parser changes depending on the input.
+
+Factory Pattern:
+This pattern aids in handling multiple records in each file type by processing each record individually.
+Due to the variety of card types, the cardFactory interface is implemented to generate a new object for each card type.
+
+
 ## Steps to run:
 
 - To run the application, follow these steps:
