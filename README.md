@@ -9,6 +9,11 @@ This app uses three special techniques: one for going through data efficiently, 
 
 All these tricks together make the app very flexible and strong, so it's really good at handling credit card information in an intelligent manner.
 
+Design Patterns Used:
+1. Iterator Pattern
+2. Strategy Pattern
+3. Factory Pattern
+
 ## Steps to run:
 
 - To run the application, follow these steps:
