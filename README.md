@@ -1,4 +1,4 @@
-# Individual Project Charles Fathima. B
+# Individual Project- CharlesFathima. B
 
 
 The Credit Card App, created using Java, uses methods based on various design patterns to figure out what type of credit card is given based on the information provided. It's a flexible app that can handle different types of files like CSV, JSON, and XML for storing records. It carefully reads these files, makes sure the credit card numbers are real, and then creates the instances for the right kind of credit card.
